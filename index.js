@@ -1,2 +1,3 @@
-console.log("JS успішно підключено!");
-alert("Вітаю з початком навчання Frontend!");
+console.log(`Hello JS!`);
+console.log(`Hello JS!`);
+console.log(`Hello JS!`);

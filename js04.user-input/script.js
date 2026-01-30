@@ -1,5 +1,8 @@
 let username;
+
 document.getElementById("mySubmit").onclick = function () {
     username = document.getElementById("myText").value;    //дуже важливо не забути про ""
-    console.log(username);
+    document.getElementById("myH1").textContent = `Hello ${username}`
+
+
 }

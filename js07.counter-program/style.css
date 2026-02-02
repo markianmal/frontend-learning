@@ -1,0 +1,22 @@
+/*body {
+    background-color: #e2d30c;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #3a3a3a;
+}*/
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 2px;
+    font-size: 1.5em;
+}

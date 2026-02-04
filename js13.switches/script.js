@@ -1,4 +1,4 @@
-let day = 1;
+let day = 3;
 
 switch (day) {
     case 1:
@@ -13,6 +13,7 @@ switch (day) {
     case 3:
         console.log("it is we");
         break;
+    /*breaks needed for executing only one case without them code will execute right case and all next cases*/
 
     case 4:
         console.log("it is th");
@@ -29,5 +30,6 @@ switch (day) {
         break;
 
     default:
+        console.log(`${day} is not a day`)
         break;
 }

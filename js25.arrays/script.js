@@ -28,3 +28,22 @@ function upperCase(element) {
 function LowerCase(element) {
     return element.toLowerCase();
 }
+
+const dates = ["24-10-2007", "22-8-2008"];
+const redated = dates.map(redate);
+
+console.log(dates);
+console.log(redated);
+
+function redate(element) {
+    const parts = element.split("-")
+    return `${parts[1]}/${parts[0]}/${parts[2]}`;
+}
+
+
+
+
+
+
+
+
